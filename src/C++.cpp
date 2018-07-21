@@ -9,7 +9,12 @@
 #include <iostream>
 using namespace std;
 
+constexpr int aaa(){
+	return 10;
+}
+
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	const int i = aaa();
+	cout << i << " hi" << endl; // prints !!!Hello World!!!
 	return 0;
 }
