@@ -15,6 +15,6 @@ constexpr int aaa(){
 
 int main() {
 	const int i = aaa();
-	cout << i << " hi" << endl; // prints !!!Hello World!!!
+	cout << i << " hi2" << endl; // prints !!!Hello World!!!
 	return 0;
 }
